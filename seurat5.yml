@@ -1,0 +1,30 @@
+#conda env create -f environment.yml
+name: seurat5
+channels:
+  - conda-forge
+  - bioconda
+  - anaconda
+  - defaults
+dependencies:
+  - r-essentials
+  - r-base
+  - r-reticulate
+  - r-pheatmap
+  - r-sctransform
+  - r-seurat
+  - r-openxlsx
+  - r-rmagic
+  - r-phater
+  - r-irkernel
+  - r-tidyverse
+  - r-presto
+  - r-ggplot2
+  - r-clustree
+  - r-ggrepel
+  - bioconductor-enhancedvolcano
+  - r-rmarkdown
+  - jupyterlab
+  - jupyter
+  - bioconductor-glmgampoi
+  - r-patchwork
+  - r-azimuth
